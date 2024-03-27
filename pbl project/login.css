@@ -1,0 +1,49 @@
+/* styles.css */
+
+/* Custom styles */
+
+/* Background image */
+.bg-image {
+  background-image: url('https://cdn.glitch.global/2ff260b5-087e-4e85-b900-ccb769460667/img1o.jpg?v=1702889490802');
+  background-size: cover;
+  background-position: center;
+}
+
+/* Override card styles */
+.card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+}
+
+/* Customize tab styles */
+.nav-tabs .nav-link {
+  border: none;
+  border-radius: 0;
+  background-color: transparent;
+  color: #333;
+}
+
+.nav-tabs .nav-link.active {
+  border-bottom: 2px solid hsl(0, 55%, 29%);
+  color: hsl(0, 15%, 26%);
+}
+
+/* Adjust form styles */
+.form-label {
+  color: #333;
+}
+
+.form-control {
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+}
+
+.btn-primary {
+  background-color: hsl(0, 55%, 29%);
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
